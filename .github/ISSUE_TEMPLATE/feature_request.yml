@@ -1,0 +1,14 @@
+name: Feature request
+description: Propose a focused, source-safe enhancement.
+body:
+  - type: textarea
+    id: need
+    attributes: {label: User need}
+    validations: {required: true}
+  - type: textarea
+    id: proposal
+    attributes: {label: Proposed scope}
+    validations: {required: true}
+  - type: textarea
+    id: provenance
+    attributes: {label: Religious content or licensing impact}

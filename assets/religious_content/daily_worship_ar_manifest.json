@@ -1,0 +1,14 @@
+{
+  "id": "daily-worship-ar",
+  "version": "2.0.0",
+  "schemaVersion": 1,
+  "locale": "ar",
+  "contentType": "daily-worship",
+  "itemCount": 51,
+  "sourceName": "حصن المسلم من أذكار الكتاب والسنة",
+  "sourceEdition": "الطبعة العربية المعتمدة؛ نشر IslamHouse",
+  "license": "إذن المؤلف الصريح بالقراءة والطباعة والتسبب في النشر؛ نقل حرفي مع العزو",
+  "checksum": "76ead44d26c247d6435834aee58474f3b534b145af5926bd278be114be2699e3",
+  "publishedAt": "2026-08-14T00:00:00Z",
+  "minimumAppSchema": 1
+}

@@ -1,0 +1,81 @@
+{
+    "schemaVersion":  1,
+    "snapshotDate":  "2026-08-14",
+    "provider":  "QuranEnc.com",
+    "termsSummary":  "Content is reproduced verbatim. Publisher, source, and version are displayed in the app. No Quran text from the API is bundled.",
+    "canonicalQuranIncluded":  false,
+    "remoteActivation":  {
+                             "enabled":  false,
+                             "requires":  [
+                                              "signed manifest",
+                                              "publisher authenticity verification",
+                                              "checksum verification",
+                                              "rollback and downgrade protection"
+                                          ]
+                         },
+    "resources":  [
+                      {
+                          "id":  "quranenc-english-rwwad",
+                          "apiKey":  "english_rwwad",
+                          "type":  "translation",
+                          "language":  "en",
+                          "title":  "English Translation - Rowwad Translation Center",
+                          "publisher":  "Rowwad Translation Center, Rabwah Dawah Association, Islamic Content Service Association in Languages, and IslamHouse.com",
+                          "provider":  "QuranEnc.com",
+                          "version":  "1.0.19",
+                          "lastUpdate":  "2026-03-12",
+                          "retrievedAt":  "2026-08-14",
+                          "source":  "https://quranenc.com/api/v1/translation/sura/english_rwwad/{surah}",
+                          "sourcePage":  "https://quranenc.com/en/home",
+                          "termsUrl":  "https://quranenc.com/en/home",
+                          "license":  "Redistribution permitted by QuranEnc Terms and Policies: verbatim content, attribution, version disclosure, transcript information, feedback to source, updates, and no inappropriate advertising.",
+                          "asset":  "assets/quran_study/english_rwwad.json",
+                          "recordCount":  6236,
+                          "nonEmptyRecordCount":  6236,
+                          "size":  1393670,
+                          "sha256":  "392383BD183650095A51D3E5F4869B407E98BA15F6A44422FA656CA7C8BE05DF"
+                      },
+                      {
+                          "id":  "quranenc-arabic-moyassar",
+                          "apiKey":  "arabic_moyassar",
+                          "type":  "tafsir",
+                          "language":  "ar",
+                          "title":  "Arabic Language - At-Tafsir Al-Muyassar",
+                          "publisher":  "King Fahd Complex for Printing the Holy Quran in Madinah",
+                          "provider":  "QuranEnc.com",
+                          "version":  "1.0.0",
+                          "lastUpdate":  "2017-02-15",
+                          "retrievedAt":  "2026-08-14",
+                          "source":  "https://quranenc.com/api/v1/translation/sura/arabic_moyassar/{surah}",
+                          "sourcePage":  "https://quranenc.com/en/home",
+                          "termsUrl":  "https://quranenc.com/en/home",
+                          "license":  "Redistribution permitted by QuranEnc Terms and Policies: verbatim content, attribution, version disclosure, transcript information, feedback to source, updates, and no inappropriate advertising.",
+                          "asset":  "assets/quran_study/arabic_moyassar.json",
+                          "recordCount":  6236,
+                          "nonEmptyRecordCount":  6236,
+                          "size":  2780586,
+                          "sha256":  "F090A37DB4248D247E6FB8800C7E26A2E566C30D6B47A34E42E4FC3F9384DC76"
+                      },
+                      {
+                          "id":  "quranenc-arabic-seraj",
+                          "apiKey":  "arabic_seraj",
+                          "type":  "wordMeanings",
+                          "language":  "ar",
+                          "title":  "Arabic Language - Meanings of Words",
+                          "publisher":  "As-Siraj fi Bayan Gharib Al-Quran, via QuranEnc.com",
+                          "provider":  "QuranEnc.com",
+                          "version":  "1.0.0",
+                          "lastUpdate":  "2025-12-17",
+                          "retrievedAt":  "2026-08-14",
+                          "source":  "https://quranenc.com/api/v1/translation/sura/arabic_seraj/{surah}",
+                          "sourcePage":  "https://quranenc.com/en/home",
+                          "termsUrl":  "https://quranenc.com/en/home",
+                          "license":  "Redistribution permitted by QuranEnc Terms and Policies: verbatim content, attribution, version disclosure, transcript information, feedback to source, updates, and no inappropriate advertising.",
+                          "asset":  "assets/quran_study/arabic_seraj.json",
+                          "recordCount":  6236,
+                          "nonEmptyRecordCount":  3648,
+                          "size":  819219,
+                          "sha256":  "348420D9810F3EF158C56835042E454FB3C06D47C090B681D6D149BC61E3D14F"
+                      }
+                  ]
+}
