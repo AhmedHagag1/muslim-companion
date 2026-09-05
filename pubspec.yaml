@@ -23,7 +23,7 @@ dependencies:
   audio_session: ^0.2.4
   flutter_local_notifications: ^22.3.0
   flutter_timezone: ^5.1.0
-  flutter_device_compass: ^2.0.1
+  flutter_device_compass: ^2.2.0
   crypto: ^3.0.6
   hijri_core: ^1.0.1
   share_plus: ^13.3.0
