@@ -163,7 +163,7 @@ class QuranAudioController extends ChangeNotifier {
       if (source == null || source.uri == null) {
         return _fail('هذه التلاوة غير متاحة الآن. جرّب قارئًا آخر.');
       }
-      return _load([
+      return await _load([
         source.withReciterName(selectedReciter!.displayNameArabic),
       ], autoPlay: autoPlay);
     } on QuranAudioResolutionException catch (exception) {
@@ -199,7 +199,11 @@ class QuranAudioController extends ChangeNotifier {
                 source.withReciterName(selectedReciter!.displayNameArabic),
           )
           .toList(growable: false);
-      return _load(sources, initialIndex: initialAyah - 1, autoPlay: autoPlay);
+      return await _load(
+        sources,
+        initialIndex: initialAyah - 1,
+        autoPlay: autoPlay,
+      );
     } on QuranAudioResolutionException catch (exception) {
       return _fail(_resolutionMessage(exception.failure));
     } catch (exception) {
